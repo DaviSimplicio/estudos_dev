@@ -1,4 +1,4 @@
-#PROJECT - CALCULLING TRIP VALI
+#PROJECT - calculating gas mileage
 #Precisa calcular:
 #Litros Necessários
 #Custo do Combustível
