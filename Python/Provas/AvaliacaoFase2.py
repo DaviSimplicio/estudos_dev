@@ -1,4 +1,4 @@
-#Fase 2 - Ler arquivo CSV e Avaliar os dadis do usuário e mostrar dados do período, emitir grafico e dia mais chuvoso
+#Fase 2 - Ler arquivo CSV e Avaliar os dados do usuário e mostrar dados do período, emitir grafico e dia mais chuvoso
 import matplotlib.pyplot as plt
 
 def mesMaisChuvoso(lista):
@@ -44,7 +44,7 @@ def mediaMinima(lista, mes):
 #Leitura do CSV
 arquivo = open("dados.csv", "r")
 
-arquivo.readline() #ignora cabeçaho do arquivo
+arquivo.readline() #ignora cabeçalho do arquivo
 lista = []
 
 for linha in arquivo:
